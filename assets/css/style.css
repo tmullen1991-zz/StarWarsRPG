@@ -1,0 +1,16 @@
+.title{
+    color: #ffd700;
+    font-size: 50px;
+}
+body{
+    font-family: 'Poller One', cursive;
+    color: #ffd700;
+}
+.bg-black{
+    background: black;
+}
+.background-image{
+    background-image: url(../images/StarWarsBg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
