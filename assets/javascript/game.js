@@ -1,7 +1,7 @@
 $(document).ready(function () {
     // cheat message on how to win to be displayed in console
     console.log("to win: attack right to left, attacking left to right will result in loss")
-    
+
     //character stats
 
     var character1 = {
@@ -57,6 +57,7 @@ $(document).ready(function () {
         $("#defeat-div").animate({ opacity: "0" })
         $("#attack-button").animate({ opacity: "0" })
         $("#initial-heading").text("Select your Hero")
+        $("#attack-values").text("")
         defeatedCount = 0;
         currentEnemyId = 0;
         currentHeroId = 0;
@@ -137,6 +138,8 @@ $(document).ready(function () {
             // increase attack
             heroAttack = heroAttack + heroBaseAttack
             $(hero).attr("attackPower", heroAttack)
+            // display attack values
+            $("#attack-values").text("You attacked for " + heroAttack + " HP damage! You got counter-attacked for " + enemyCounter + " HP damage :O")
         }
         // if enemy is defeated
         if (enemyHp <= 0) {

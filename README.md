@@ -2,13 +2,17 @@
 
 # Star Wars RPFG ReadMe
 
-1. How the page is structured:
+1. How The Game Works:
+
+    * The game works by prompting the player to chose one of four characters as a hero to fight the remaining three characters. After the hero is chosen the page prompts the player to chose an enemy to be fought one at a time until the hero's HP is gone or all enemies are defeated. When in combat, the player hits the attack button which cause the hero to attack the enemy's HP and the enemy to counter-attack the hero's HP. The hero's attack will increase each attack but counter attacks are constant values for each character.
+
+2. How the page is structured:
 
     * The page is sectioned into divs with several divs not visable until a charater is chosen and moved to their respective hero, enemy, and defeated enemy divs. 
 
     * The visibilty is contorled within the game.js click statements. 
 
-2. How the game script works:
+3. How the game script works:
 
     1. Where character stats are stored and how they are manipulated:
 
