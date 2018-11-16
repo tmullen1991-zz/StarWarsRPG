@@ -1,6 +1,7 @@
 $(document).ready(function () {
     // cheat message on how to win to be displayed in console
     console.log("to win: attack right to left, attacking left to right will result in loss")
+    
     //character stats
 
     var character1 = {
